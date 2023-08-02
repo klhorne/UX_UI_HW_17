@@ -1,51 +1,78 @@
-/*Navigation style codes*/
-
-.inline-block{
-    display:inline-block;
-    vertical-align: top;
+/* Navigation style codes */
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.logo{
+header {
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically within the header */
+}
+
+/*.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}*/
+
+.logo {
     width: 23%;
     padding: 1%;
     text-align: center;
+    display: flex;
+    align-items: center; /* Center the logo vertically */
+    margin-left: auto;
 }
 
-nav{
-    width: 73%;
-    padding: 1%;
-    background-color:pink;
-    color: black;
+.logo img {
+    max-height: 100px;
    
 }
 
-ul{
-    width: 50%;
-    margin-left: auto;}
+nav {
+    width: 73%;
+    padding: 1%;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
 
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Center menu items vertically */
+    margin-right: auto; /* Push the menu items to the right side */
+}
 
-    /*Hero image style code*/
-
+/* Hero image style code */
 .heroImg {
     height: 600px;
     padding: 25px;
 }
-.content{width: 500px;
-margin:0 auto;}
 
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
 
-    /*Hero image style code*/
+/* Footer */
+footer {
+    text-align: center; /* Center <ul> content */
+    background-color: #373738;
+}
 
-
-    /*Footer*/
-    footer{
-        text-align: center; /*center <ul> content*/
-        background-color: #373738}
-    
-     .center-ul {list-style: none;
+.center-ul {
+    list-style: none;
     padding: 0;
-display: flex;
-justify-content: cente;} /*to center <li> elements>*/ 
+    display: flex;
+    justify-content: center; /* Center <li> elements */
+}
 
-
-li{margin:0 10px;}
+li {
+    margin: 0 10px;
+}
