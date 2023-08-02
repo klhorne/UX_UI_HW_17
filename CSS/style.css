@@ -1,1 +1,28 @@
-<link>
+/*Navigation style codes*/
+
+.inline-block{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav{
+    width: 73%;
+    padding: 1%;
+    background-color:pink;
+    color: black;
+   
+}
+
+ul{
+    width: 50%;
+    margin-left: auto;}
+
+
+    /*Hero image style code*/
+    
