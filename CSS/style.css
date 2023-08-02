@@ -25,4 +25,27 @@ ul{
 
 
     /*Hero image style code*/
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+.content{width: 500px;
+margin:0 auto;}
+
+
+    /*Hero image style code*/
+
+
+    /*Footer*/
+    footer{
+        text-align: center; /*center <ul> content*/
+        background-color: #373738}
     
+     .center-ul {list-style: none;
+    padding: 0;
+display: flex;
+justify-content: cente;} /*to center <li> elements>*/ 
+
+
+li{margin:0 10px;}
